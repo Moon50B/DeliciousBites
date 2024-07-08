@@ -1,0 +1,406 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 90px;
+    background-color: #C83239;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 30%;
+    height: 80px;
+    text-align: center;
+}
+.logo img{
+    width: 80px;
+}
+.nav {
+    display: none;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.nav a:hover{
+    background-color: black;
+    color: white;
+}
+.nav.show-menu-h {
+    display: block;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    transition: .5s;
+    padding: 0.5rem ;
+}
+
+.menu-h {
+    display: block;
+}
+
+.menu-h button {
+    color: white;
+    margin: 2rem;
+    border: none;
+    background-color: #C83239;
+    font-size: 28px;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+.imagen1{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://placehold.co/600x400);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background:linear-gradient(#259c9c71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt-img1{
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+.txt-img1 h1{
+    font-size: 40px;
+    margin: 0;
+}
+.nosotros{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.txt-n{
+    margin-top: 4%;
+    width: 80%;
+    height: auto;
+}
+.txt-n p{
+    margin-bottom: 0;
+}
+.txt-n h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+}
+.txt-n2{
+    display: none;
+}
+.nosotros button{
+    margin: 4%;
+}
+.show{
+    display: block;
+    width: 80%;
+    height: auto;
+}
+.menu{
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+    background-color: #22A1AD;
+}
+.menu h1{
+    text-align: center;
+    margin: 0;
+    color: white;
+    padding-top: 3%;
+    font-size: 40px;
+}
+.plt{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.plt2{
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.plt3{
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.plt4{
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img-m{
+    width: 40%;
+    height: auto;
+}
+.img-m img{
+    width: 100%;
+}
+.txt-m{
+    width: 40%;
+    height: auto;
+}
+.txt-m h2{
+    margin-top: 0;
+    margin-bottom: 1%;
+    color: white;
+    font-size: 28px;
+}
+.txt-m p{
+    color: white;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.txt-m2{
+    display: none;
+}
+.txt-m2 p{
+    color: black;
+}
+.show-txtm2{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    border-radius: 8px;
+    background-color:rgba(255, 255, 255, 0.889) ;
+}
+.btn-1{
+    width: 100%;
+    height: auto;
+    margin-top: 6%;
+    text-align: center;
+}
+.contacto{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacto h1{
+    margin: 0;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 40px;
+}
+.contacto button{
+  margin: 4%;
+}
+.btn-form{
+    text-align: center;
+    width: 60%;
+    margin: 4%;
+}
+.formulario{
+   display: none;
+}
+.show-form{
+    display: block;
+    width: 80%;
+    margin-top: 2%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #22A1AD;
+}
+.f1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer .logo{
+    margin-top: 4%;
+}
+.txt-footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+.redes{
+    margin: 4%;
+}
+@media screen and (min-width: 768px){
+    .nav{
+        display: block;
+        top: 0;
+        padding: 1.4rem;
+        background-color: #C83239;
+        box-shadow: none;
+    }
+    .nav a {
+        display: flex;
+        color: white;
+        text-decoration: none;
+    }
+    .nav a:hover{
+        background-color: rgb(255, 255, 255);
+        color: #C83239;
+    }
+    .links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .nosotros h1{
+        font-size: 3rem;
+    }
+    .menu-h{
+        display: none;
+    }
+    .nav.show-menu-h {
+        display: none;
+    }
+    .txt-n2{
+        display: block;
+        margin-bottom: 2rem;
+        width: 80%;
+        height: auto;
+    }
+    .nosotros button{
+        display: none;
+    }
+    .nosotros p{
+        font-size: larger;
+    }
+    .show{
+        display: none;
+    }
+    .txt-m2{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        border-radius: 8px;
+        background-color:rgba(255, 255, 255, 0.889) ;
+    }
+    .show-txtm2{
+        display: none;
+    }
+    .btn-1{
+        display: none;
+    }
+    .menu h1{
+        font-size: 3rem;
+    }
+    .txt-m h2{
+        font-size: 2.5rem;
+    }
+    .txt-m p{
+        font-size: larger;
+        margin-top: 1rem;
+    }
+    .txt-m2{
+        font-size: medium;
+        text-align: center;
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .contacto h1{
+        font-size: 3rem;
+    }
+    footer .logo{
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 965px){
+    .imagen1{
+        height: 450px;
+    }
+    .img-m img{
+        width: 80%;
+    }
+    .formulario{
+        display: block;
+        width: 80%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        height: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .show-form{
+        display: none;
+    }
+    .btn-form{
+        display: none;
+    }
+}
+@media screen and (min-width: 1060px){
+    header img{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 2%;
+    }
+    .nav a{
+        padding-right: 2.5rem;
+    }
+    .img-m img{
+        width: 70%;
+    }
+    .txt-m2{
+        padding: 3%;
+        font-size: larger;
+    }
+    .contacto form label{
+        font-size: 22px
+    }
+    .f1 img{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 8%;
+    }
+}
